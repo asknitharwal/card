@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main_container"></div>
+    <script>
+let main_container=document.getElementById("main_container")
+
+let card1 = document.createElement("card1_div")
+card1.classList.add("card")
+let image1 = document.createElement("img");
+image1.src="./image/wild.webp"
+let title1= document.createElement("h1")
+title1.innerText="Tiger"
+let details1 = document.createElement("p")
+details1.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+   let btn1 = document.createElement("btn")
+   btn1.innerText="Know More"
+
+   let card2 = document.createElement("card2_div")
+   card2.classList.add("card")
+   let image2 = document.createElement("img");
+   image2.src="./image/R.gif"; 
+      let title2= document.createElement("h1") 
+   title2.innerText="Snow Fall"
+   let details2 = document.createElement("p")
+        details2.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        let btn2 = document.createElement("btn")
+            btn2.innerText="Know More"  
+
+            let card3 = document.createElement("card3_div")
+   card3.classList.add("card")
+   let image3 = document.createElement("img");
+   image3.src="./image/pp.jpg"  
+   let title3= document.createElement("h1") 
+   title3.innerText="Nature"
+   let details3 = document.createElement("p")
+        details3.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        let btn3 = document.createElement("btn")
+            btn3.innerText="Know More"  
+
+       let card4 = document.createElement("card4_div")
+       card4.classList.add("card")
+       let image4 = document.createElement("img")
+       image4.src= "./image/snow.jpg"
+       let title4= document.createElement("h1")
+       title4.innerText="Snow Point"
+       let details4 = document.createElement("p")
+       details4.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        let btn4 = document.createElement("btn")
+            btn4.innerText="Know More"  
+
+            let card5 = document.createElement("card5_div")
+       card5.classList.add("card")
+       let image5 = document.createElement("img")
+       image5.src= "./image/heritage.webp"
+       let title5= document.createElement("h1")
+       title5.innerText="Jal Mahal"
+       let details5 = document.createElement("p")
+       details5.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        let btn5 = document.createElement("btn")
+            btn5.innerText="Know More"  
+
+            let card6 = document.createElement("card6_div")
+       card6.classList.add("card")
+       let image6 = document.createElement("img")
+       image6.src= "./image/raj.jpg"
+       let title6 = document.createElement("h1")
+       title6.innerText="Rajsthan"
+       let details6 = document.createElement("p")
+       details6.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        let btn6 = document.createElement("btn")
+            btn6.innerText="Know More"  
+
+            let card7 = document.createElement("card4_div")
+       card7.classList.add("card")
+       let image7 = document.createElement("img")
+       image7.src= "./image/taj.gif"
+       let title7 = document.createElement("h1")
+       title7.innerText="Snow Point"
+       let details7 = document.createElement("p")
+       details7.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        let btn7 = document.createElement("btn")
+            btn7.innerText="Know More"  
+
+            let card8 = document.createElement("card4_div")
+       card8.classList.add("card")
+       let image8 = document.createElement("img")
+       image8.src= "./image/delhi.jpg"
+       let title8 = document.createElement("h1")
+       title8.innerText="Red Fort"
+       let details8 = document.createElement("p")
+       details8.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+        let btn8 = document.createElement("btn")
+            btn8.innerText="Know More" 
+
+   card1.append(image1,title1,details1,btn1)    
+    card2.append(image2,title2,details2,btn2)
+    card3.append(image3,title3,details3,btn3)
+    card4.append(image4,title4,details4,btn4)
+    card5.append(image5,title5,details5,btn5)
+    card6.append(image6,title6,details6,btn6)   
+    card7.append(image7,title7,details7,btn7)
+    card8.append(image8,title8,details8,btn8)
+
+        
+
+   main_container.append(card1,card2,card3,card4,card5,card6,card7,card8)
+   
+   
+   </script>
+</body>
+</html>
